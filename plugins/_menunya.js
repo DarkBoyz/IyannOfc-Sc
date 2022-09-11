@@ -79,10 +79,10 @@ const defaultMenu = {
   after: `
 ──···────────────────···──
 
-Base Script : *BOTCAHX*
+Base Script : *Nurutomo*
 Recode Script : *Private*
 
-⫹⫺ TioXd 
+IyannOfc 
 ${'```WhatsApp Multi Device```'}
 `,
 }
@@ -186,7 +186,7 @@ let handler = async (m, { conn, usedPrefix: _p }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    let url = `https://database.tioclkp02.repl.co/IMG_20220803_172938.JPG`.trim()
+    let url = `https://telegra.ph/file/717d289dff2928835d331.jpg`.trim()
     conn.sendButton(m.chat, text.trim(), wm, url,
 [
 ['Creator', '.owner'],
